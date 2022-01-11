@@ -1,0 +1,39 @@
+% Description of the input parameters: 
+%       infile1：anomaly data
+%       infile2：power spectrum fitting data
+%       f1：frequency band of preferential filtering method, used for low pass filtering
+% Description of the output parameters: 
+%       outfile: result file
+% Description of primary identifiers：
+%       x, y: x, y verctor
+%       nx, ny: number of points in x and y directions
+%       dx, dy: spacing in x and y directions
+%       m: total number of frequency band
+%       h: intial depth
+%       ss: equivalent layer power spectral density function
+% Description of subroutine function: 
+%       readgrd.m: read surfer text grd file
+%       readtxt.m: read txt file
+%       g_pu.m:  preferential filtering 
+%       taper2d.m: cosine attenuation edge extension
+%       savegrd.m: save surfer text grd file
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clc;
+clear;
+close all;
+%%%%%%%%%%%% I/O parameters %%%%%%%%%%%%%
+infile1 = 'mc_gn2e.grd'; 
+infile2 = 'mc_gn2e_psp.txt'; 
+f1 = 1; 
+outfile = 'mc_gn2e_pu.grd'; 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[g,x,y,nx,ny,dx,dy] = readgrd(infile1);
+[m,h,ss] = readtxt(infile2);
+[X,Y] = meshgrid(x,y);
+nmax = max([nx ny]);
+npts = 2^nextpow2(nmax); 
+dr = 2*pi/((npts-1)*dx); 
+% preferential filtering
+gpu = g_pu(g,npts,ss,m,h,f1,nx,ny,dr);
+% save
+savegrd(gpu,x,y,nx,ny,outfile);
