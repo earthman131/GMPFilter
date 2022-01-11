@@ -1,0 +1,2 @@
+# GMPFilter
+Preferential filtering method
