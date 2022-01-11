@@ -3,6 +3,7 @@
 Preferential filtering method
 Step 1 Power spectrum analysis
 Step 2 Preferential filtering method
+Developed by Lianghui Guo.
 
 # Prerequisites
 
@@ -22,7 +23,7 @@ Lianghui Guo, Xiaohong Meng, Lei Shi, et al. Preferential filtering method and i
 
 # License
 
-GMCurvature is an open source project under the GNU General Public License v3.0. It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+GMPFilter is an open source project under the GNU General Public License v3.0. It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 # All rights reserved：
 
