@@ -1,8 +1,11 @@
 # GMPFilter
 
 Preferential filtering method
+
 Step 1 Power spectrum analysis
+
 Step 2 Preferential filtering method
+
 Developed by Lianghui Guo.
 
 # Prerequisites
