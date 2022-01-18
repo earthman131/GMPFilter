@@ -8,13 +8,17 @@ Step 2 Preferential filtering method
 
 Developed by Lianghui Guo.
 
+# Principles
+
+GMPFilter is a Matlab code of the preferential filtering method for gravity anomaly separation based on Greenequivalent-layer concept and Wiener filter. Compared to the conventional upward continuation andthe preferential continuation, the preferential filtering method has the advantage of no requirement ofcontinuation height. The results show that the preferential filtering method produced better separation of gravity anomaly thanboth the conventional low-pass filtering and the upward continuation
+
 # Prerequisites
 
 The code being implemented in MATLAB, it requires the MATLAB software, which is licensed under the MathWorks sofware company. MATLAB can be downloaded at the following link https://www.mathworks.com/downloads/, and more information can be found about the license fee on the website.
 
 # Usage
 
-To launch the program, it just requires to dowload ‘Matlab_Code’ from my repositories and execute the script GMCurvature.m on MATLAB. 
+To launch the program, it just requires to dowload ‘Matlab_Code’ from my repositories and execute the script main_pf1_mcg.m and main_pf2_mcg.m on MATLAB. 
 
 # Email:
 
