@@ -1,10 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preferential filtering method - Step 1 Power spectrum analysis
+% Author: Lianghui Guo (guolh@cugb.edu.cn)
+% Organization: China University of Geosciences (Beijing), School of Geophysics and Information Technology
+% Compiled version: MATLAB R2017b
+% Reference: 
+%       Lianghui Guo, Xiaohong Meng, Lei Shi, et al. Preferential filtering method and its application to Bouguer gravity anomaly of Chinese contient.
+%       Chinese Journal of Geophysics, 2012, 55(12):4078-4088.
 % Description of the input parameters: 
 %       infile: anomaly data after edge expansion
 %       m: total number of frequency band
 %       fb: percentage of frequency cutoff points, from low to high
 % Description of the output parameters:
 %       outfile: result file
-% Description of primary identifiersï¼š
+% Description of primary identifiers£º
 %       x, y: x, y verctor
 %       nx, ny: number of points in x and y directions
 %       dx, dy: spacing in x and y directions
