@@ -1,6 +1,6 @@
 # GMPFilter
 
-Preferential filtering method
+Preferential filtering method for gravity and magnetic anomalies
 
 Step 1 Power spectrum analysis
 
@@ -10,7 +10,7 @@ Developed by Lianghui Guo.
 
 # Principles
 
-GMPFilter is a Matlab code of the preferential filtering method for gravity anomaly separation based on Greenequivalent-layer concept and Wiener filter. Compared to the conventional upward continuation andthe preferential continuation, the preferential filtering method has the advantage of no requirement ofcontinuation height. The results show that the preferential filtering method produced better separation of gravity anomaly thanboth the conventional low-pass filtering and the upward continuation
+GMPFilter is a Matlab code of the preferential filtering method for potential-field (graivty and magnetic) anomaly separation based on Green equivalent-layer concept and Wiener filter, following the preferential continuation method by Pawlowski (1995). Compared to the conventional upward continuation and the preferential continuation, the preferential filtering method has the advantage of no requirement ofcontinuation height. The results show that the preferential filtering method produced better anomaly-separation than both the conventional low-pass filtering and the upward continuation.
 
 # Prerequisites
 
