@@ -5,7 +5,8 @@
 % Compiled version: MATLAB R2017b
 % Reference: 
 %       Lianghui Guo, Xiaohong Meng, Lei Shi, et al. Preferential filtering method and its application to Bouguer gravity anomaly of Chinese contient.
-%       Chinese Journal of Geophysics, 2012, 55(12):4078-4088.
+%       Chinese Journal of Geophysics-Chinese Edition, 2012, 55(12):4078-4088.
+%       Lianghui Guo, Xiaohong Meng. Preferential filtering for gravity anomaly separation. Computers & Geosciences, 2013, 51: 247-254
 % Description of the input parameters: 
 %       infile: anomaly data after edge expansion
 %       m: total number of frequency band
